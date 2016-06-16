@@ -42,7 +42,7 @@ function retrieveSampleImage() {
 
 function retrieveSampleVideo() {
   var oReq = new XMLHttpRequest();
-  oReq.open("GET", " Screencast - Jun 13, 2016 1.01 AM.webm", true);
+  oReq.open("GET", "cant gif.webm", true);
   oReq.responseType = "arraybuffer";
 
   oReq.onload = function (oEvent) {
